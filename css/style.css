@@ -7,17 +7,17 @@ body {
     font-family: Roboto, sans-serif;
     font-size: 15px;
     font-weight: 400;
-    line-height: 1.667
+    line-height: 1.667;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 a:hover {
-    text-decoration: none
+    text-decoration: none;
 }
 
 button {
@@ -72,41 +72,53 @@ h3 {
     color: #6059f6
 }
 
+.bg-gray {
+    background-color: #f8f8ff;
+}
 
 .pb-90px {
-    padding-bottom: 60px
+    padding-bottom: 60px;
 }
 
 @media (min-width:992px) {
     .pb-90px {
-        padding-bottom: 90px
+        padding-bottom: 90px;
     }
 }
 
 .mh-tour {
-    max-height: 630px
+    max-height: 630px;
 }
 
 .section-margin {
-    margin: 65px 0
+    margin: 65px 0;
 }
 
 @media (min-width:992px) {
     .section-margin {
-        margin: 130px 0
+        margin: 130px 0;
     }
 }
 
 .section-margin-large {
-    margin: 65px 0
+    margin: 65px 0;
 }
 
 @media (min-width:992px) {
     .section-margin-large {
-        margin: 140px 0
+        margin: 140px 0;
     }
 }
 
+.section-padding {
+    padding: 65px 0;
+}
+
+@media (min-width:992px) {
+    .section-padding {
+        padding: 130px 0
+    }
+}
 
 .generic-margin {
     margin-top: 70px
@@ -547,12 +559,12 @@ h3 {
     }
 
     .home_banner_area .donation_inner {
-        margin-bottom: -30px
+        margin-bottom: -30px;
     }
 
     .home_banner_area .dontation_item {
         max-width: 350px;
-        margin: auto
+        margin: auto';
     }
 
     .footer_area .col-sm-6 {
@@ -628,6 +640,15 @@ h3 {
         line-height: 45px;
         padding-bottom: 0;
         padding-top: 0
+    }
+
+    .footer-bottom {
+        text-align: center
+    }
+
+    .footer-bottom .footer-social {
+        text-align: center;
+        margin-top: 15px
     }
 
     .made_life_inner .nav.nav-tabs li {
@@ -936,6 +957,32 @@ h3 {
     }
 }
 
+.about-content h2 {
+    margin-bottom: 15px
+}
+
+@media (min-width:768px) {
+    .about-content h2 {
+        margin-bottom: 25px
+    }
+}
+
+.about-content p {
+    margin-bottom: 20px
+}
+
+@media (min-width:768px) {
+    .about-content p {
+        margin-bottom: 40px
+    }
+}
+
+@media (min-width:1200px) {
+    .about-img {
+        position: relative;
+        left: -100px
+    }
+}
 
 /* Tour Card */
 
@@ -2226,7 +2273,7 @@ button.button {
 
 .footer-area {
     background: #04091e;
-    padding-top: 60px;
+    padding-top: 60px
 }
 
 @media (min-width:1000px) {
@@ -2503,6 +2550,17 @@ button.button {
     color: #6059f6
 }
 
+.footer-bottom {
+    padding: 18px 0;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, .1)
+}
+
+@media (min-width:1000px) {
+    .footer-bottom {
+        margin-top: 70px
+    }
+}
 
 .footer-text a,
 .footer-text i {
@@ -2774,6 +2832,8 @@ blockquote p {
     font-size: 13px;
 }
 
+.card-priceTable ul li a {}
+
 .arrow a span {
     font-weight: 600;
     color: #fff
@@ -3035,6 +3095,12 @@ footer.footer-area.section-gap.no-widgets {
     padding: 25px 0;
 }
 
+.no-widgets .footer-bottom {
+    padding: 0;
+    margin: 0;
+    border-top: 0
+}
+
 .single-sidebar-widget .form-control {
     border-radius: 0px;
     font-size: 13px;
@@ -3124,6 +3190,7 @@ footer.footer-area.section-gap.no-widgets {
     width: initial !important
 }
 
+.nav-links {}
 
 .nav-links .page-numbers {
     font-size: 14px;
@@ -3310,6 +3377,7 @@ footer.footer-area.section-gap.no-widgets {
 
 .details h4 a,
 .detials h4 a,
+.about-content h2,
 .posts-title h3 {
     word-break: break-word;
 }
@@ -3329,6 +3397,7 @@ footer.footer-area.section-gap.no-widgets {
     margin: 20px;
 }
 
+.wp-block-categories li {}
 
 .wp-block-archives li a:hover,
 .wp-block-categories li a:hover {
