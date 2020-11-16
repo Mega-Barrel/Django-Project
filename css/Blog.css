@@ -1,0 +1,14 @@
+.section-padding {
+    padding: 65px 0;
+}
+
+@media (min-width:992px) {
+    .section-padding {
+        padding: 130px 0
+    }
+}
+
+.bg-gray {
+    background-color: #f8f8ff;
+}
+
