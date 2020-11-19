@@ -313,3 +313,18 @@
 .wpcf7 .form-group {
     margin-bottom: 20px
 }
+
+.section-intro {
+    max-width: 640px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.section-intro p { 
+    margin-bottom: 0
+}
+
+.section-intro-img {
+    margin-bottom: 10px
+}
+
