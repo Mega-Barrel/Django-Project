@@ -7,17 +7,17 @@ body {
     font-family: Roboto, sans-serif;
     font-size: 15px;
     font-weight: 400;
-    line-height: 1.667
+    line-height: 1.667;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 a:hover {
-    text-decoration: none
+    text-decoration: none;
 }
 
 button {
@@ -72,45 +72,24 @@ h3 {
     color: #6059f6
 }
 
+.bg-gray {
+    background-color: #f8f8ff;
+}
 
 .pb-90px {
-    padding-bottom: 60px
+    padding-bottom: 60px;
 }
 
 @media (min-width:992px) {
     .pb-90px {
-        padding-bottom: 90px
+        padding-bottom: 90px;
     }
 }
 
 .mh-tour {
-    max-height: 630px
+    max-height: 630px;
 }
 
-.section-margin {
-    margin: 65px 0
-}
-
-@media (min-width:992px) {
-    .section-margin {
-        margin: 130px 0
-    }
-}
-
-.section-margin-large {
-    margin: 65px 0
-}
-
-@media (min-width:992px) {
-    .section-margin-large {
-        margin: 140px 0
-    }
-}
-
-
-.generic-margin {
-    margin-top: 70px
-}
 
 .header_area {
     position: absolute;
@@ -547,12 +526,12 @@ h3 {
     }
 
     .home_banner_area .donation_inner {
-        margin-bottom: -30px
+        margin-bottom: -30px;
     }
 
     .home_banner_area .dontation_item {
         max-width: 350px;
-        margin: auto
+        margin: auto';
     }
 
     .footer_area .col-sm-6 {
@@ -628,6 +607,15 @@ h3 {
         line-height: 45px;
         padding-bottom: 0;
         padding-top: 0
+    }
+
+    .footer-bottom {
+        text-align: center
+    }
+
+    .footer-bottom .footer-social {
+        text-align: center;
+        margin-top: 15px
     }
 
     .made_life_inner .nav.nav-tabs li {
@@ -755,63 +743,6 @@ h3 {
     }
 }
 
-.hero-banner h1 {
-    text-transform: uppercase;
-    color: #6059f6;
-    margin-bottom: 15px
-}
-
-@media (max-width:1200px) {
-    .hero-banner h1 {
-        font-size: 40px
-    }
-}
-
-@media (max-width:991px) {
-    .hero-banner h1 {
-        font-size: 30px
-    }
-}
-
-.hero-banner-sm {
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: cover;
-    padding-top: 140px;
-    padding-bottom: 90px
-}
-
-@media (min-width:992px) {
-    .hero-banner-sm {
-        padding-top: 240px;
-        padding-bottom: 122px
-    }
-}
-
-.hero-banner-sm h1 {
-    text-transform: uppercase;
-    color: #6059f6
-}
-
-@media (max-width:991px) {
-    .hero-banner-sm h1 {
-        font-size: 38px
-    }
-}
-
-@media (max-width:768px) {
-    .hero-banner-sm h1 {
-        font-size: 28px
-    }
-}
-
-.hero-banner-sm p {
-    margin-bottom: 0
-}
-
-.hero-banner-sm-content {
-    max-width: 400px
-}
 
 .bg-shape {
     position: relative
@@ -883,148 +814,33 @@ h3 {
     color: #fff
 }
 
-.section-intro {
-    max-width: 640px;
-    margin-right: auto;
-    margin-left: auto
-}
-
-.section-intro p {
-    margin-bottom: 0
-}
-
-.section-intro-img {
-    margin-bottom: 10px
-}
-
-.service-card {
-    background: #f8f8ff;
-    -webkit-transition: all .3s ease 0s;
-    -moz-transition: all .3s ease 0s;
-    -o-transition: all .3s ease 0s;
-    transition: all .3s ease 0s
-}
-
-.service-card:hover {
-    background: #fff
-}
-
-.service-card-img {
-    padding-top: 60px;
-    padding-bottom: 40px;
-    max-height: 260px
-}
-
-@media (max-width:600px) {
-    .service-card-img {
-        padding-top: 20px;
-        padding: 10px
-    }
-}
-
-.service-card-body {
-    padding: 10px 30px 40px 30px
-}
-
-.service-card-body h3 {
-    margin-bottom: 8px
-}
-
-@media (min-width:768px) {
-    .service-card-body h3 {
-        margin-bottom: 15px
-    }
-}
-
-
-/* Tour Card */
-
-.tour-card {
-    position: relative;
-    margin-bottom: 10px
-}
-
-.tour_price {
-    color: #007bff
-}
-
-.tour-card .tour-card-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: #fff;
-    padding: 40px;
-    opacity: 0;
-    z-index: -1;
-    transform: translateY(40px);
-    -webkit-transition: all .3s ease 0s;
-    -moz-transition: all .3s ease 0s;
-    -o-transition: all .3s ease 0s;
-    transition: all .3s ease 0s
-}
-
-.tour-card .tour-card-overlay h4 {
-    margin-bottom: 0
-}
-
-.tour-card .tour-card-overlay small {
-    font-size: 15px;
-    color: #555;
-    margin-bottom: 10px
-}
-
-.tour-card .tour-card-overlay p {
-    font-size: 16px
-}
-
-.tour-card:hover .tour-card-overlay {
-    transform: translateY(0);
-    width: 100%;
-    opacity: 1;
-    z-index: 1
-}
-
-@media (min-width:1200px) {
-    .tour-card:hover .tour-card-overlay {
-        width: 74%
-    }
-}
-
-.tour-content {
-    padding: 8px 20px 25px 15px
-}
-
-.tour-content h2 {
+.about-content h2 {
     margin-bottom: 15px
 }
 
-.search-wrapper {
-    background: #f8f8ff;
-    padding: 30px 10px;
-    text-align: center
-}
-
-@media (min-width:600px) {
-    .search-wrapper {
-        padding: 60px
+@media (min-width:768px) {
+    .about-content h2 {
+        margin-bottom: 25px
     }
 }
 
-.search-wrapper h3 {
-    font-size: 25px;
-    margin-bottom: 25px
-}
-
-@media (min-width:600px) {
-    .search-wrapper h3 {
-        margin-bottom: 50px
-    }
-}
-
-.wpcf7 .form-group {
+.about-content p {
     margin-bottom: 20px
 }
+
+@media (min-width:768px) {
+    .about-content p {
+        margin-bottom: 40px
+    }
+}
+
+@media (min-width:1200px) {
+    .about-img {
+        position: relative;
+        left: -100px
+    }
+}
+
 
 .wpcf7 .nice-select {
     width: 100%;
@@ -1076,93 +892,6 @@ h3 {
     color: #999
 }
 
-/* Contact */
-
-.search-content h2 {
-    margin-bottom: 10px
-}
-
-@media (min-width:768px) {
-    .search-content h2 {
-        margin-bottom: 20px
-    }
-}
-
-.search-content p {
-    margin-bottom: 25px
-}
-
-@media (min-width:768px) {
-    .search-content p {
-        margin-bottom: 40px
-    }
-}
-
-.contact-info {
-    margin-bottom: 12px
-}
-
-.contact-info__icon {
-    margin-right: 20px
-}
-
-.contact-info__icon i,
-.contact-info__icon span {
-    color: #8f9195;
-    font-size: 27px
-}
-
-.contact-info .media-body h3 {
-    font-size: 16px;
-    margin-bottom: 0
-}
-
-.contact-info .media-body h3 a {
-    color: #2a2a2a
-}
-
-.contact-info .media-body p {
-    color: #999
-}
-
-.contact-title {
-    font-size: 27px;
-    font-weight: 600;
-    margin-bottom: 20px
-}
-
-.wpcf7-form label {
-    color: #6059f6;
-    font-size: 14px
-}
-
-.wpcf7-form .form-group {
-    margin-bottom: 30px
-}
-
-.wpcf7-form .form-control {
-    border-radius: 5px;
-    height: 50px;
-    padding-left: 18px;
-    font-size: 13px;
-    background: 0 0;
-    border: 1px solid #f0e9ff
-}
-
-.wpcf7-form .form-control:focus {
-    outline: 0;
-    box-shadow: none
-}
-
-.wpcf7-form .form-control::placeholder {
-    font-weight: 300;
-    color: #999
-}
-
-.wpcf7-form textarea {
-    border-radius: 12px;
-    height: 100% !important
-}
 
 /* Blog */
 
@@ -2222,11 +1951,12 @@ button.button {
     border: 0
 }
 
+
 /* Footer */
 
 .footer-area {
     background: #04091e;
-    padding-top: 60px;
+    padding-top: 60px
 }
 
 @media (min-width:1000px) {
@@ -2503,6 +2233,17 @@ button.button {
     color: #6059f6
 }
 
+.footer-bottom {
+    padding: 18px 0;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, .1)
+}
+
+@media (min-width:1000px) {
+    .footer-bottom {
+        margin-top: 70px
+    }
+}
 
 .footer-text a,
 .footer-text i {
@@ -2774,6 +2515,7 @@ blockquote p {
     font-size: 13px;
 }
 
+
 .arrow a span {
     font-weight: 600;
     color: #fff
@@ -3033,6 +2775,12 @@ div.wpcf7 .ajax-loader {
 
 footer.footer-area.section-gap.no-widgets {
     padding: 25px 0;
+}
+
+.no-widgets .footer-bottom {
+    padding: 0;
+    margin: 0;
+    border-top: 0
 }
 
 .single-sidebar-widget .form-control {
@@ -3310,6 +3058,7 @@ footer.footer-area.section-gap.no-widgets {
 
 .details h4 a,
 .detials h4 a,
+.about-content h2,
 .posts-title h3 {
     word-break: break-word;
 }
@@ -3329,6 +3078,7 @@ footer.footer-area.section-gap.no-widgets {
     margin: 20px;
 }
 
+.wp-block-categories li {}
 
 .wp-block-archives li a:hover,
 .wp-block-categories li a:hover {
