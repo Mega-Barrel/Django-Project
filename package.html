@@ -4,21 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Safario Travel - Home</title>
+    <title>Package</title>
+
     <link rel="icon" href="img/Fevicon.png" type="image/png">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
- 
-
-    <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
-    <link rel="stylesheet" href="vendors/linericon/style.css">
-    <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
-    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="vendors/flat-icon/font/flaticon.css">
-    <link rel="stylesheet" href="vendors/nice-select/nice-select.css">
+    
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+
+<body onload="myloader()">
+    <!-- loader -->
+    <header class="sticky-top">
+        <nav class="navbar  navbar-expand-lg navbar-light bg-light transparent navbar-invers">
+            <div class="container navbar-inner">
+                <a class="navbar-brand" href="#">
+                    <img src="https://mega-barrel.github.io/Django-Project/img/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"><b class="words current">Home</b><span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html"><b class="words">About</b></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="package.html"><b class="words">Packages</b></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html"><b class="words">Contact</b></a>
+                        </li>
+
+                    </ul>
 </head>
 
 <body class="bg-shape">
@@ -45,12 +76,142 @@
                             </li>
                         </ul>
                     </div>
+
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
     <!-- end of header -->
 
+    <section class="section-margin generic-margin mt-5">
+        <div class="container">
+            <div class="section-intro text-center pb-85px">
+                <img class="section-intro-img" src="img/packages/packages.png" alt="">
+                <h2>Packages</h2>
+            </div>
+            <div class="row">
+                <!-- <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <div class="card" style="width: 20rem;">
+                        <a href=""><img class="card-img-top" src="img/packages/honeymoon.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h3>Honeymoon</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div> -->
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <div class="card" style="width: 20rem;">
+                        <a href=""><img class="card-img-top" src="img/packages/family.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h3>Family Vacation</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <div class="card" style="width: 20rem;">
+                        <a href=""><img class="card-img-top" src="img/packages/weekend.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h3>Weekend Getaway</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <div class="card" style="width: 20rem;">
+                        <a href=""><img class="card-img-top" src="img/packages/business.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h3>Business Meet</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <div class="card" style="width: 20rem;">
+                        <a href=""><img class="card-img-top" src="img/packages/group.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h3>Group Travel</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <div class="card" style="width: 20rem;">
+                        <a href=""><img class="card-img-top" src="img/packages/worldtour.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h3>Around the World</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-margin generic-margin mt-5">
+        <div class="container">
+            <div class="section-intro text-center pb-85px">
+                <img class="section-intro-img" src="img/packages/destinations.png" alt="">
+                <h2>Destinations</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <div class="card" style="width: 20rem;">
+                        <a href=""><img class="card-img-top" src="img/packages/paris.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h3>Paris</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <div class="card" style="width: 20rem;">
+                        <a href=""><img class="card-img-top" src="img/packages/tokyo.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h3>Tokyo</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <div class="card" style="width: 20rem;">
+                        <a href=""><img class="card-img-top" src="img/packages/prague.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h3>Prague</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <div class="card" style="width: 20rem;">
+                        <a href=""><img class="card-img-top" src="img/packages/los angeles.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h3>Los Angeles</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <div class="card" style="width: 20rem;">
+                        <a href=""><img class="card-img-top" src="img/packages/konoha.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h3>Konoha Village</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                    <div class="card" style="width: 20rem;">
+                        <a href=""><img class="card-img-top" src="img/packages/dombivali.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h3>Republic of Dombivali</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <section class="section-margin generic-margin mt-5">
@@ -225,29 +386,20 @@
                 </div>
             </div>
 
-            <div class="footer-bottom">
-                <div class="row align-items-center">
-                    <p class="col-lg-8 col-sm-12 footer-text m-0 text-center text-lg-left">
-                        Copyright &copy;All rights reserved</p>
-                    <div class="col-lg-4 col-sm-12 footer-social text-center text-lg-right">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-dribbble"></i></a>
-                        <a href="#"><i class="fab fa-behance"></i></a>
-                    </div>
-                </div>
-            </div>
         </div>
     </footer>
 
-    <script src="vendors/jquery/jquery-3.2.1.min.js" type="535b65cd4297e80f7b734389-text/javascript"></script>
-    <script src="vendors/bootstrap/bootstrap.bundle.min.js" type="535b65cd4297e80f7b734389-text/javascript"></script>
-    <script src="vendors/owl-carousel/owl.carousel.min.js" type="535b65cd4297e80f7b734389-text/javascript"></script>
-    <script src="vendors/nice-select/jquery.nice-select.min.js" type="535b65cd4297e80f7b734389-text/javascript">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
 
-    <script src="js/skrollr.min.js" type="535b65cd4297e80f7b734389-text/javascript"></script>
-    <script src="js/main.js" type="535b65cd4297e80f7b734389-text/javascript"></script>
 </body>
 
 </html>

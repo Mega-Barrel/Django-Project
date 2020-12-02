@@ -1,0 +1,12 @@
+.navbar {
+  opacity: 0.7;
+  z-index: 9999;
+}
+
+.current {
+  color: blueviolet;
+}
+
+.words:hover {
+  color: blueviolet;
+}
