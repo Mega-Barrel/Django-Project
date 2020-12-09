@@ -57,5 +57,4 @@ def register_signin(request):
         print('Data Has Been Saved!')
         data = signup(name = name, email = email, phone = phone, password = password)
         data.save()
-        
     return render(request, 'Register.html')
