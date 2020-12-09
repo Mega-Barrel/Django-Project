@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +10,7 @@
     </script>
 
     <title>Registeration</title>
-    <link rel="stylesheet" href="../static/css/register.css">
+    <link rel="stylesheet" href="/static/css/register.css">
 
 </head>
 
@@ -18,36 +19,38 @@
     <div class="container">
         <div class="forms-container">
             <div class="sigin-signup">
-                <form action="" class="sign-in-form">
+                <form action="register_signin" method="POST" class="sign-in-form">
+                    {% csrf_token %}
                     <h2 class="title">Sign in</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Username">
+                        <input type="text" name="signin_username" placeholder="Username">
                     </div>
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password">
+                        <input type="password" name="signin_password" placeholder="Password">
                     </div>
                     <input type="submit" value="Login" class="btn solid">
                 </form>
 
-                <form action="" class="sign-up-form">
+                <form action="register_signin" method="POST" class="sign-up-form">
+                    {% csrf_token %}
                     <h2 class="title">Sign up</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Username">
+                        <input type="text" name="signup_name" placeholder="Username">
                     </div>
                     <div class="input-field">
                         <i class="fas fa-envelope"></i>
-                        <input type="email" placeholder="Email">
+                        <input type="email" name="signup_email" placeholder="Email">
                     </div>
                     <div class="input-field">
                         <i class="fa fa-phone"></i>
-                        <input type="number" placeholder="Phone no.">
+                        <input type="number" name="signup_phone" placeholder="Phone no.">
                     </div>
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password">
+                        <input type="password" name="signup_password" placeholder="Password">
                     </div>
                     <input type="submit" value="Sign up" class="btn solid">
                 </form>
