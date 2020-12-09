@@ -46,14 +46,16 @@ def prague(request):
     return render(request, 'prague.html')
 
 def register_signin(request):
-    # if request.method == 'POST':
-    #     name = request.POST['signup_name']
-    #     email = request.POST['signup_email']
-    #     phone = request.POST['signup_phone']
-    #     password = request.POST['signup_password']
+    if request.method == 'POST':
+        name = request.POST['signup_name']
+        email = request.POST['signup_email']
+        phone = request.POST['signup_phone']
+        password = request.POST['signup_password']
 
-    #     signup = signup(name = name, email = email, phone = phone, password = password)
-    #     signup.save()
-    #     print('Data Has Been Saved!')
-
+        signup = signup(name = name, email = email, phone = phone, password = password)
+        signup.save()
+        print('Data Has Been Saved!')
+        data = signup(name = name, email = email, phone = phone, password = password)
+        data.save()
+        
     return render(request, 'Register.html')
