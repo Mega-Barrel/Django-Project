@@ -52,9 +52,8 @@ def register_signin(request):
         phone = request.POST['signup_phone']
         password = request.POST['signup_password']
 
-        signup = signup(name = name, email = email, phone = phone, password = password)
-        signup.save()
-        print('Data Has Been Saved!')
         data = signup(name = name, email = email, phone = phone, password = password)
         data.save()
+        print('Data Has Been Saved!')
+
     return render(request, 'Register.html')
