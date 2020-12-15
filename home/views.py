@@ -11,6 +11,9 @@ def package(request):
 def about(request):
     return render(request, 'about.html')
 
+def about_get_started(request):
+    return render(request, 'package.html')
+
 def contact(request):
     if request.method == 'POST':
 

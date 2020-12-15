@@ -10,6 +10,7 @@ urlpatterns = [
     path('package', views.package, name='package'),
     path('contact', views.contact, name='contact'),
     path('register_signin', views.register_signin, name='register_signin'),
+    path('about_get_started', views.about_get_started, name='about_get_started'),
 
     # Places
     
